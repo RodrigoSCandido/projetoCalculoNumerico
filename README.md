@@ -11,23 +11,23 @@ Hexadecimal: E.4
 Ao selecionar a opção ‘S’, o programa deverá pedir o nome de um arquivo de texto contendo um sistema linear de n equações e n variáveis. O lay-out do arquivo deverá ser:
 
 n
-a1,1 a1,2 ... a1,n b1
-a2,1 a2,2 ... a2,n b2
-...
-an,1 an,2 ... an,n bn
+a1,1 a1,2 ... a1,n b1  
+a2,1 a2,2 ... a2,n b2  
+...  
+an,1 an,2 ... an,n bn  
 
 onde ai,j é o coeficiente da variável j na equação i e bi é o termo independente da equação i. Por exemplo, o arquivo correspondente ao sistema:
 
- x1 –  x2 + 3x3 =  8
-2x1 – 2x2 +  x3 =  1
-–x1 + 3x2 –  x3 =  2
+ x1 –  x2 + 3x3 =  8  
+2x1 – 2x2 +  x3 =  1  
+–x1 + 3x2 –  x3 =  2  
 
 seria
 
- 3
- 1 -1  3  8
- 2 -2  1  1
--1  3 -1  2
+ 3  
+ 1 -1  3  8  
+ 2 -2  1  1  
+-1  3 -1  2  
 
 O programa deverá então verificar se a matriz de coeficientes satisfaz o critério das linhas ou o critério das colunas. Se isso não ocorrer, o programa deverá apenas informar que o sistema linear não satisfaz o critério das linhas nem o critério das colunas. Caso contrário, o programa deverá calcular uma solução aproximada do sistema linear usando o método de Gauss-Seidel. Pare quando a variação no valor das variáveis numa iteração for menor que  10-8 ou após 1000 iterações. Exiba a solução encontrada e o número de iterações realizadas.
 
