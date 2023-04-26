@@ -4,13 +4,13 @@ Este é um programa em C com um menu principal que possua 4 opções: ‘C’ �
 
 Ao selecionar a opção ‘C’, o usuário deverá digitar um número decimal, eventualmente com parte fracionária, e o programa deverá exibir esse número nos sistemas numéricos binário, octal e hexadecimal com até vinte casas decimais significativas. Por exemplo, se o usuário digitar o número 14.25 o programa deverá exibir:
 
-Binário: 1110.01
-Octal: 16.2
-Hexadecimal: E.4
+Binário: 1110.01  
+Octal: 16.2  
+Hexadecimal: E.4  
 
 Ao selecionar a opção ‘S’, o programa deverá pedir o nome de um arquivo de texto contendo um sistema linear de n equações e n variáveis. O lay-out do arquivo deverá ser:
 
-n
+n  
 a1,1 a1,2 ... a1,n b1  
 a2,1 a2,2 ... a2,n b2  
 ...  
