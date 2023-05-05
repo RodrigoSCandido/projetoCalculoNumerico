@@ -2,3 +2,11 @@
 1682532878 source:c:\users\honorio.filho\documents\projetos\projetocalculonumerico\main.c
 	<stdio.h>
 
+1683291872 source:c:\users\honorio.desktop-97pnun6\documents\calculo numérico\projetocalculonumerico\ep1.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+	<time.h>
+	<math.h>
+
